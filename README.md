@@ -1,16 +1,44 @@
-# pocketplan
+# PocketPlan - AI-Powered Expense Tracker
 
-A new Flutter project.
+PocketPlan is an AI-powered mobile application built with Flutter that helps users track their expenses, receive smart insights, and plan their finances better. It utilizes on-device machine learning to provide features such as spending pattern analysis, budget recommendations, and future expense predictions.
 
-## Getting Started
+## Features
+- **Core Features**:
+  - Track daily expenses
+  - Visualize spending trends with charts
+  - Set and monitor budget limits
+  - View transaction history
+  
+- **AI/ML Powered Features**:
+  - **Spending Insights**: Get actionable insights on your spending patterns.
+  - **Budget Recommendations**: Receive personalized recommendations for better budget management.
+  - **Expense Predictions**: Predict future expenses using time series forecasting models.
 
-This project is a starting point for a Flutter application.
+- **Additional Features**:
+  - Onboarding screens to introduce the app's features.
+  - Customizable categories for different types of expenses.
+  - Light and dark theme support for better user experience.
+  - In-app notifications to remind users about budgeting goals and expenses.
+  - Admin panel for managing categories and viewing user data.
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
+- **Flutter** - Cross-platform mobile app development.
+- **TensorFlow Lite** - On-device machine learning model for predictions.
+- **Firebase** - Backend services including authentication and data storage.
+- **Scikit-learn** - For developing and training machine learning models (Python).
+- **GetX** - For state management and navigation.
+- **Hive** - For local storage of user data.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Setup and Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Prerequisites
+Ensure you have the following installed:
+- Flutter SDK
+- Dart SDK
+- Android Studio or VS Code with Flutter and Dart plugins
+
+### Clone the repository
+```bash
+git clone https://github.com/yourusername/pocketplan.git
+cd pocketplan
+```
